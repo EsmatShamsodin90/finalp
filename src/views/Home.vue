@@ -112,13 +112,13 @@ export default {
 
     // هدایت به مسیر مرتبط
     if (game.toLowerCase() === 'tic tac toe') {
-      this.$router.push('/tic-tac-toe');
+      this.$router.push('./tic-tac-toe');
     } else if (game.toLowerCase() === 'snake and ladder') {
-      this.$router.push('/snake-and-ladder');
+      this.$router.push('./snake-and-ladder');
     } else if (game.toLowerCase() === 'tetris') {
-      this.$router.push('/tetris');
+      this.$router.push('./tetris');
     } else if (game.toLowerCase() === 'puzzle') {
-      this.$router.push('/puzzle');
+      this.$router.push('./puzzle');
     } else {
       this.speak('I couldn\'t find the game you want to play.');
     }
